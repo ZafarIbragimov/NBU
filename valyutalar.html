@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="currency.css">
+  <script src="valyuta.js" defer></script>
+  <title>Valyutalar kursi</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/nbulogo.svg" alt="logo">
+        
+      </a>
+    </div>
+    <div class="lines">
+      <div class="line-one">
+        <ul>
+          <li class="active">Jismoniy shaxslar</li>
+          <li>Kichik bisnes</li>
+          <li>Korparativ mijozlar</li>
+          <li>Aksiyadorlar va investorlar</li>
+          <li>Karyera</li>
+          <li>Bank haqida</li>
+        </ul>
+        <img src="images/glasses.svg" alt="glasses">
+        <div class="left">
+          <p class="bold">EUR</p>
+          <p><span>Sotib olish</span> <br>13950.00</p>
+          <p><span>Sotish</span> <br> 14280.00</p>
+          <p><a href="valyutalar.html">Valyutalar kursi</a></p>
+        </div>
+      </div>
+      <div class="line-two">
+        <ul>
+          <li>Kreditlar</li>
+          <li>Kartalar</li>
+          <li>Omonatlar</li>
+          <li>Pul o'tkazmalari</li>
+          <li>Tariflar</li>
+          <li>Aksiyalar</li>
+        </ul>
+        <div class="left">
+          <div>
+            <img src="images/download.svg" alt="mobile">
+          <p>
+            1344
+          </p>
+          </div>
+          <img src="images/globe.svg" alt="globe">
+          <p>
+            O'zbekcha
+          </p>
+          <img src="images/mybank.svg" alt="bank">
+          <p>
+            Mening bankim
+          </p>
+          <p>
+            <img src="images/search.svg" alt="search">
+          </p>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="valutalar">
+    <div class="container">
+      <h1>Valyutalar kursi</h1>
+      <ul>
+        <li class="active">Valyuta ayirboshlash punktlarida</li>
+        <li>Bankomatlarda</li>
+        <li>Milliy ilovasida</li>
+        <li>Dam olish kunlari uchun jadval</li>
+      </ul>
+      <div class="currency-container">
+
+        <table class="currency-table">
+          <thead>
+            <tr>
+              <th>Valyutaning Nomi</th>
+              <th>Sotib Olish</th>
+              <th>Sotish</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="images/USD.png" alt="USD flag">1 AQSh dollari, USD</td>
+              <td>12750.00</td>
+              <td>12800.00</td>
+            </tr>
+            <tr>
+              <td><img src="images/EUR.png" alt="EUR flag">1 Yevro, EUR</td>
+              <td>13790.00</td>
+              <td>13960.00</td>
+            </tr>
+            <tr>
+              <td><img src="images/RUB.png" alt="RUB flag">1 Rossiya rubli, RUB</td>
+              <td>120.00</td>
+              <td>140.00</td>
+            </tr>
+            <tr>
+              <td><img src="images/GBP.png" alt="GBP flag">1 Angliya funt sterlingi, GBP</td>
+              <td>16400.00</td>
+              <td>17100.00</td>
+            </tr>
+            <tr>
+              <td><img src="images/CHF.png" alt="CHF flag">1 Shveytsariya franki, CHF</td>
+              <td>14600.00</td>
+              <td>15300.00</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="converter">
+          <div class="converter-title">
+            <h1 style="font-size: 25px;">Valyuta konvertori</h1>
+            <span class="icon"><img src="images/cours.svg" alt="cours" style="width: 40px; position: relative; left: 20px;"></span>
+          </div>
+          <div class="converter-box">
+            <input type="number" id="amount" placeholder="1">
+            <select id="currency">
+
+             </select>
+          </div>
+          <div class="result" id="result">12760.00 UZS</div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+</body>
+</html>
